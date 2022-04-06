@@ -1,0 +1,180 @@
+html, body {
+margin: 0;
+padding: 0;
+background-color: #fff;
+color: #090909;
+font: 1em Exo, sans-serif, Corbel, Calibri, Helvetica, Arial
+}
+
+#content {
+margin: 0;
+padding: 0 2em;
+text-align: center;
+}
+
+a {
+color: #ef5a00;
+text-decoration: none
+}
+
+a:hover {
+color: #ff6900;
+background-color: #d0d0d0
+}
+
+a:visited {
+color: #d34c00
+}
+
+h1 {
+font-size: 2em;
+color: #6792c5;
+}
+
+#headimages img {
+float: left;
+display: inline-block;
+margin-right: 2em;
+margin-top: 1em;
+}
+
+#forms {
+width: 80%;
+margin: 2em auto;
+clear: both;
+display: block;
+overflow: auto;
+}
+
+#forms input[type=radio]{
+opacity: 0;
+position: fixed;
+width: 0;
+text-align: center;
+}
+
+#forms label {
+display: block;
+background-color: #f1f0f2;
+padding: 10px 20px;
+font-family: sans-serif, Arial;
+font-size: 16px;
+border: 2px solid #f1f0f2;
+border-radius: 4px;
+width: 80px;
+text-align: center;
+margin-bottom: 5px;
+}
+
+#forms input[type="radio"]:checked +label {
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+border-color: #828784;
+}
+
+input#color11:checked +label, input#color12:checked +label {
+background-color: #fbf9ff!important;
+border-color: #444!important;
+}
+input#color21:checked +label, input#color22:checked +label {
+background: rgba(239,197,202,1)!important;
+background: -moz-linear-gradient(top, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%)!important;
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(239,197,202,1)), color-stop(50%, rgba(210,75,90,1)), color-stop(51%, rgba(186,39,55,1)), color-stop(100%, rgba(241,142,153,1)))!important;
+background: -webkit-linear-gradient(top, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%)!important;
+background: -o-linear-gradient(top, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%)!important;
+background: -ms-linear-gradient(top, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%)!important;
+background: linear-gradient(to bottom, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%)!important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=0 )!important;
+border-color: #444!important;
+color: #fff!important;
+}
+
+input#color31:checked +label, input#color32:checked +label {
+background: rgba(255,255,255,1)!important;
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)))!important;
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 )!important;
+border-color: #444!important;
+color: #c1c1c2!important;
+}
+
+#forms input[type="radio"]:focus + label {
+border: 2px solid #444;
+}
+
+#forms h4 {
+font-weight: normal;
+font-style: normal;
+font-size: 1.3em;
+margin-top: 0;
+margin-bottom: 15px;
+}
+
+#forms1 {
+float: left;
+display: inline-block;
+width: 40%;
+margin-right: 2em;
+border: 1px solid #c2c2c2;
+}
+
+#forms2 {
+float: left;
+display: inline-block;
+width: 40%;
+border: 1px solid #c2c2c2;
+}
+
+#forms1,#forms2 {
+padding: 20px;
+}
+
+#fsubm {
+margin-top: 2em;
+text-align: center;
+display: block;
+margin-bottom: 4em;
+}
+
+,cl {
+min-height: 1em;
+clear: both;
+}
+
+.myButton {
+box-shadow: 0px 0px 0px 2px #9fb4f2;
+background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+background-color: #7892c2;
+border-radius: 10px;
+border: 1px solid #4e6096;
+display: inline-block;
+cursor: pointer;
+color: #fff;
+font-family: Arial;
+font-size: 28px;
+font-weight: bold;
+padding: 12px 37px;
+text-decoration: none;
+text-shadow: 0px 1px 0px #283966;
+}
+
+.myButton:hover {
+background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+background-color: #476e9e;
+color: #faf9fb;
+}
+
+.myButton:active {
+position: relative;
+top: 1px;
+}
