@@ -267,3 +267,17 @@ print "Content-type: text/html\n\n$pgs{$in{s}}<br />\n$printImage";
 
 exit(0);
 ```
+
+## License note
+This software is free under AL/GPL, copyright (c) 2021 CodeMacs.com
+
+You can redistribute it and/or modify/fork it under the same terms as the Perl 5 programming language system itself.
+
+Use it at your own risk!
+
+## Consumer note
+The whole project was built for testing purpose and it worked woth success to scan old private notes and diaries.
+
+Work horse used in this project was Intel NUC, a little but quite powerful computer with very nice price tag.
+
+Some are priced under $150US as BOXNUC7CJYH1 model without Hard Drive or RAM.
