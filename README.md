@@ -3,7 +3,7 @@ FreeBSD running two SANE scanners at the same time to control two CanoScan LiDE 
 
 After OS installation ports collection is installed with:
 ```bash
-eportsnap fetch
+portsnap fetch
 portsnap extract # for the first time installation
 or
 portsnap fetch update
